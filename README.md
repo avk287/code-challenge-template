@@ -9,7 +9,7 @@
   - `python3 -m venv <env>`
   - `source <env>/bin/activate`
 - Set Django settings
-  - `export DJANGO_SETTINGS_MODULE="pipeline.settings"`
+  - `export DJANGO_SETTINGS_MODULE="code_challenge.settings"`
 - Apply Database Migrations
   - `python3 manage.py migrate`
   please refer `migrations.png` for reference in Answers folder
