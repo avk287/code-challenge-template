@@ -6,7 +6,7 @@ import datetime
 
 
 class Command(BaseCommand):
-    help = 'import crop data'
+    help = 'import weather data'
 
     def add_argument(self, parser):
         pass
