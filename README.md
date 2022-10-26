@@ -12,21 +12,23 @@
   - `export DJANGO_SETTINGS_MODULE="pipeline.settings"`
 - Apply Database Migrations
   - `python3 manage.py migrate`
+  please refer `migrations.png` for reference in Answers folder
 
 ## Testcases
 - Using Nosetests to run tests for the project:
   - `nosetests .`
+  Please refer nosetests.png in answers folder for reference
 
 ## Data Ingestion
 - Ingesting crop and weather data using following commands
   - `python3.9 manage.py import_weather_data`
   - `python3.9 manage.py import_crop_data`
-  - please see the screenshot - Dataingestion for crop and weather data.png for reference in Answers folder
+  - please see the screenshot - `Dataingestion for crop and weather data.png` for reference in Answers folder
 
 ## Data Analysis
 - Weather Stats are computed for pair of station_id and year possible using following command:
   - `python manage.py analyze_weather_data`
-  - please see the screenshot - weather_analysis.png for reference in Answers folder
+  - please see the screenshot - `weather_analysis.png` for reference in Answers folder
 
 ## REST APIs
 - Django REST Framework was used to develop the following 3 REST API GET endpoints with default 
