@@ -23,7 +23,7 @@
 - Ingesting crop and weather data using following commands
   - `python3.9 manage.py import_weather_data`
   - `python3.9 manage.py import_crop_data`
-  - please see the screenshot - `Dataingestion for crop and weather data.png` for reference in Answers folder
+  - please see the screenshot - `Dataingestion for crop and weatherdata.png` for reference in Answers folder
 
 ## Data Analysis
 - Weather Stats are computed for pair of station_id and year possible using following command:
