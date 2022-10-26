@@ -35,11 +35,11 @@
   - /api/yield
   - /api/weather/stats
 
-  Examples below and refer api screenshots in Answers folder:
+  Examples below and refer api postman screenshots in Answers folder for the following GET api responses:
   
-  http://localhost:8000/api/crop/?page=1
-  http://localhost:8000/api/weather/?page=3
-  http://localhost:8000/api/weather/stats?page=10
-  http://localhost:8000/api/weather/stats?page=1&year=1986
+  `http://localhost:8000/api/crop/?page=1`
+  `http://localhost:8000/api/weather/?page=3`
+  `http://localhost:8000/api/weather/stats?page=10`
+  `http://localhost:8000/api/weather/stats?page=1&year=1986`
     
     
