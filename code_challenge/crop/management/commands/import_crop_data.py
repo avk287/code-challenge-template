@@ -31,6 +31,6 @@ class Command(BaseCommand):
         # using print as log statement for test purposes
         print("Data Ingested for crop data \n")
         print("Start Time {}".format(start_time) + "\n")
-        print("Start Time {}".format(finish_time) + "\n")
+        print("Finish Time {}".format(finish_time) + "\n")
         print("Number of records ingested: {}".format(num_of_records_after_insert-num_of_records_before_insert) + "\n")
 

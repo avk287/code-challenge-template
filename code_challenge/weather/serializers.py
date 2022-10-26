@@ -11,4 +11,4 @@ class WeatherDataSerializer(serializers.ModelSerializer):
 class StatisticsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Statistics
-        fields = ['station_id', 'date', 'avg_max_temp', 'avg_min_temp', 'total_precipitation']
+        fields = ['station_id', 'year', 'avg_max_temp', 'avg_min_temp', 'total_precipitation']
